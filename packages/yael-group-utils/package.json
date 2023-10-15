@@ -1,0 +1,21 @@
+{
+  "name": "yael-group-utils",
+  "version": "1.0.0",
+  "moduleName": "yaelUtils",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@git.dev.sh.ctripcorp.com:corp-framework-components/corp-fe-libs.git"
+  },
+  "scripts": {
+    "build:umd": "pack umd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

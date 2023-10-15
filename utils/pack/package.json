@@ -1,0 +1,13 @@
+{
+  "name": "yael-pack",
+  "version": "1.0.0",
+  "description": "common pack",
+  "main": "./bin/index.js",
+  "bin": {
+    "pack": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}

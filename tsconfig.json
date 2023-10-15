@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // 解析路径的相对位置
+    "baseUrl": ".",
+    // 编译后的代码版本
+    "target": "ES2015",
+    // 编译的时候遵循的模块规范
+    "module": "esnext",
+    // 模块解析策略,是指编译器在查找导入模块内容时所遵循的流程
+    "moduleResolution": "node",
+    // 是否从tslibs中导入helper
+    "importHelpers": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "dist/types"
+  },
+  "exclude": ["node_modules", "types"]
+}

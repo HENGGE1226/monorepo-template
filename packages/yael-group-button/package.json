@@ -1,0 +1,20 @@
+{
+  "name": "yael-group-button",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pack npm",
+    "dev": "pack dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@babel/runtime-corejs3": "^7.21.0"
+  }
+}
